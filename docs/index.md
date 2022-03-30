@@ -7,3 +7,5 @@
 但看文档或直接去看项目代码，感觉都不是很清晰，想着，要是能像看 `antd` 组件文档一样看公司项目自己封装的组件，效果应该会更好。
 
 花了点时间，最后还真找到了，就是使用 `dumi`，恰好它和项目使用的 `umi` 应用框架还是一家的。
+
+[查看项目部署进度地址](https://github.com/kivet-h/intelink-manager-module-doc/actions)
