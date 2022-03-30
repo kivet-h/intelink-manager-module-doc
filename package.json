@@ -6,6 +6,7 @@
     "start": "dumi dev",
     "build": "dumi build",
     "github:deploy": "gh-pages -d build",
+    "build:deploy": "dumi build && gh-pages -d build",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
     "test": "umi-test",
     "test:coverage": "umi-test --coverage",
