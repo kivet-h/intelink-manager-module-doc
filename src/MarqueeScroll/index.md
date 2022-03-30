@@ -9,7 +9,7 @@ group:
 
 滚动区域
 
-## 何时使用
+## 何时使用 1
 
 一些文字的展示，超出父级容器宽度，要求不换行展示，不超出省略号，UI 要求需滚动展示，如用户名。
 
@@ -64,7 +64,9 @@ import React from 'react';
 import { MarqueeScroll } from 'dumi-module-doc';
 
 export default () => (
-  <MarqueeScroll scrollWidth={300}>滚动内容，滚动内容，滚动内容，滚动内容，滚动内容</MarqueeScroll>
+  <MarqueeScroll scrollWidth={300} style={{ border: '1px solid #eee' }}>
+    滚动内容，滚动内容，滚动内容，滚动内容，滚动内容
+  </MarqueeScroll>
 );
 ```
 
@@ -79,7 +81,7 @@ import React from 'react';
 import { MarqueeScroll } from 'dumi-module-doc';
 
 export default () => (
-  <MarqueeScroll scrollWidth={300}>
+  <MarqueeScroll scrollWidth={300} style={{ border: '1px solid #eee' }}>
     <span style={{ marginRight: '50px' }}>滚动内容，滚动内容，滚动内容，滚动内容，滚动内容</span>
   </MarqueeScroll>
 );
