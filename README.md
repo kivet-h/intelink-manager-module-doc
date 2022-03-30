@@ -1,33 +1,17 @@
 # dumi-module-doc
 
-## Getting Started
+## 快速开始
 
-Install dependencies,
+项目启动
 
 ```bash
-$ npm i
+yarn start
 ```
 
-Start the dev server,
+项目部署到 GitHub Pages
 
 ```bash
-$ npm start
-```
+yarn build:deploy
 
-Build documentation,
-
-```bash
-$ npm run docs:build
-```
-
-Run test,
-
-```bash
-$ npm test
-```
-
-Build library via `father-build`,
-
-```bash
-$ npm run build
+注意：可能存在缓存，发布上去后并不会马上生效
 ```
